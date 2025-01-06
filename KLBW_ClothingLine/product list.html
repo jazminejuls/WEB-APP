@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <div class="container py-5">
+        <h2 class="text-center">Product List</h2>
+        <div class="row">
+            <!-- Formal Set -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/best_selling_1.jpg" class="card-img-top" alt="Formal Set">
+                    <div class="card-body">
+                        <h5 class="card-title">Formal Set</h5>
+                        <p class="card-text">Php 30,000</p>
+                        <button class="btn btn-primary" onclick="addItem('Formal Set', 30000)">Add to Cart</button>
+                    </div>
+                </div>  
+            </div>
+
+            <!-- Gray Shirt -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/best_selling_3.jpg" class="card-img-top" alt="Gray Shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Gray Shirt</h5>
+                        <p class="card-text">Php 8,500</p>
+                        <button class="btn btn-primary" onclick="addItem('Gray Shirt', 8500)">Add to Cart</button>
+                    </div>
+                </div>  
+            </div>
+
+            <!-- Sweater -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/best_selling_2.jpg" class="card-img-top" alt="Sweater">
+                    <div class="card-body">
+                        <h5 class="card-title">Sweater</h5>
+                        <p class="card-text">Php 5,900</p>
+                        <button class="btn btn-primary" onclick="addItem('Sweater', 5900)">Add to Cart</button>
+                    </div>
+                </div>  
+            </div>
+
+            <!-- Hoodie -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/top_rated_3.jpg" class="card-img-top" alt="Hoodie">
+                    <div class="card-body">
+                        <h5 class="card-title">Hoodie</h5>
+                        <p class="card-text">Php 9,600</p>
+                        <button class="btn btn-primary" onclick="addItem('Hoodie', 9600)">Add to Cart</button>
+                    </div>
+                </div>  
+            </div>
+
+           <!-- Grey Pants -->
+           <div class="col-md-4">
+            <div class="card">
+                <img src="images/1.jpeg" class="card-img-top" alt="Hoodie">
+                <div class="card-body">
+                    <h5 class="card-title">Grey Pants</h5>
+                    <p class="card-text">Php 5,650</p>
+                    <button class="btn btn-primary" onclick="addItem('Grey Pants', 5650)">Add to Cart</button>
+                </div>
+            </div>  
+        </div>
+
+        <!-- Orange Shirt -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/3.jpeg" class="card-img-top" alt="Hoodie">
+                <div class="card-body">
+                    <h5 class="card-title">Orange Shirt</h5>
+                    <p class="card-text">Php 5,000</p>
+                    <button class="btn btn-primary" onclick="addItem('Orange Shirt', 5000)">Add to Cart</button>
+                </div>
+            </div>  
+        </div>
+
+
+
+
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-primary">Home</a>
+            <a href="cart.html" class="btn btn-success">Go to Cart</a>
+        </div>
+    </div>
+</body>
+</html>
