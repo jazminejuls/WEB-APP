@@ -19,23 +19,23 @@
         </div>
 
         <div class="box">
-            <h3>contact info</h3>
-            <p> <i class="fas fa-phone"></i> +63 905 377 7010 </p>
-            <p> <i class="fas fa-phone"></i> +63 994 885 1573 </p>
+            <h3>contact infos</h3>
+            <p> <i class="fas fa-phone"></i> +63 905 377 7011 </p>
+            <p> <i class="fas fa-phone"></i> +63 994 885 1574 </p>
             <p> <i class="fas fa-envelope"></i> julia@gmail.com </p>
             <p> <i class="fas fa-map-marker-alt"></i> TUP - Manila </p>
         </div>
 
         <div class="box">
             <h3>follow us</h3>
-            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
-            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
-            <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+            <a href="https://www.facebook.com/masipagnajolugh"><i class="fab fa-facebook-f"></i>Facebook</a>
+            <a href="https://x.com/jjugals"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="https://www.instagram.com/superjolz/"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="https://web.telegram.org/a/"><i class="fab fa-telegram"></i>Telegram</a>
         </div>
 
     </div>
 
-    <div class="credit">&copy; Copyright @ <?php echo date('Y'); ?> by <span>FloraLink</span> </div>
+    <div class="credit" ?> by <span>FloraLink</span> </div>
 
 </section>
